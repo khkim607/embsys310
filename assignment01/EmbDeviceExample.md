@@ -1,9 +1,7 @@
 ### Wearable activity trackers
 
 ![Image of activity tracker 1](https://github.com/khkim607/embsys310/blob/main/AT_fitbit1.PNG)
-
 ![Image of activity tracker 2](https://github.com/khkim607/embsys310/blob/main/AT_fitbit2.PNG)
-
 ![Image of activity tracker 3](https://github.com/khkim607/embsys310/blob/main/AT_smartwatch.PNG)
 
 Wearable activity trackers keep tracks physical movement of a body and measures biometrics around the clock. It does have microcontroller, memory, battery, and sensors for acceleration, orientation, environmental(such as barometer), and heart rate monitoring. It also have some active devices of vibration and lighting for human interface purpose. A lot of activity trackers are available in the market with different levels of convenience, complexity and cost. In simplest for, it may come as a small dongle without any human interface but only available to access via wireless connection such as BT or NFC (Near-Field Communication). In complex and costly form, smart watch with luxury of built-in GPS and OLED display with handsfree calling and numerous apps of golf, cycling, and running,  etc.
