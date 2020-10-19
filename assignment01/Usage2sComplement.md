@@ -8,8 +8,9 @@ One's complement is similar way of subtraction by adding complement of the numbe
 While one's complement waste representation space due to -0, two's complement use additional space of -8.
  
 * For 4-bit representation:
+
 0 | 1 | 2 | 3 | 4 | 5 | 6 | Integer
-- | - | - | - | - | - | - |
+-- | -- | -- | -- | -- | -- | -- | --
 0000	| 0001	| 0010	| 0011	| 0100	| 0101	| 0110	| 0111	
 1111	| 1110	| 1101	| 1100	| 1011	| 1010	| 1001	| 1000	
 -0	| -1	| -2	| -3	| -4	| -5	| -6	| -7	| 1's complement
