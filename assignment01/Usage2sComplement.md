@@ -1,4 +1,4 @@
-Why use two’s complement to represent negative numbers?
+### Why use two’s complement to represent negative numbers?
 In computer hardware, it requires to have an effective way of representing negative numbers and a way of computation involving subtraction since numbers are represented only by sequence of bits of 0 and 1 without extra symbols. Two's complement of integers is adopted to represents a negative counterpart '-a' of an integer 'a' because it is more efficient than other alternative methods of one's complements or "sign-and magnitude" method.
 
 It is came from mathematical technique known as "method of complements." Method of complements positions range of positive and negative integers in a symmetric way that they can use the same algorithm for addition throughout the whole range. For a given number of places, of the total 16 places of 2^4 = 16 in case of 4-bit operation,  half of the possible representations of numbers encode the positive numbers, the other half represents their respective "additive inverses"(from Wikipedia). Means 'b' is an additive inverse of 'a' if 'a'+'b'=0. 
