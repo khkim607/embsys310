@@ -15,7 +15,7 @@ For 4-bit representation
 -1	-2	-3	-4	-5	-6	-7	-8	2's complement
 
 In summary,
-	* - Computer hardware need a way to represent negative numbers
-	* - Method of complement is an effective way of representing a set of positive and negative integers as "additive inverse" pairs.
-	* - Two's complement is more efficient than one's complement in saving storage and computing less 
+* Computer hardware need a way to represent negative numbers
+* Method of complement is an effective way of representing a set of positive and negative integers as "additive inverse" pairs.
+* Two's complement is more efficient than one's complement in saving storage and computing less 
 
