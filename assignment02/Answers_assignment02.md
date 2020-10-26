@@ -22,7 +22,7 @@ b) N=0, N=0, -> N=1, V=1, The N register value set to 1 since the number after i
 
 a)4294967295 -> 0 -> 1
 
-b) N=0, V=0 --> N=0, V=0 --> N=0, V=0. N register remains 0 since the results show the positive valued. V register also remains 0 since the results of addition of two positive values remains positive
+b) N=0, V=0 --> N=0, V=0. N register remains 0 since the results show the positive valued. V register also remains 0 since the results of addition of two positive values remains positive
 
 ### A5.
 
