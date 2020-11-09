@@ -12,4 +12,4 @@
 
 - After the Morse code became internationally popular, German journalist, Friedrich Clemens Gerke, improved the work of Morse and Veil by simplyfing the different length dashes and different inter-element spaces of American Morse code, leaving only two coding elements, the dot and the dash. 
 
-- In summary, the Morse code was originally developed by Samuel Morse, however, modern day International Morse code is completed by later refinment of Alfred Veil and Frederich Celmens Gerke.  
+- In summary, the Morse code was originally developed by **Samuel Morse**, however, modern day International Morse code is completed by later refinment of **Alfred Veil** and **Frederich Celmens Gerke**.  
