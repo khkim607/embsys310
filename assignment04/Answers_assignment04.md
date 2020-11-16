@@ -1,4 +1,4 @@
-### A1. bitBanding LED1 demo
+### A1. bitBanding LED1 demo (main_bitBanding.c)
 - the following screen capture file shows difference between blinking LED1 w/ and w/o bitBanding technique
 a) 
 b)
@@ -6,7 +6,7 @@ b)
 ![bitBanding for LED1 Blinking](https://github.com/khkim607/embsys310/blob/main/assignment04/Assignment04_Ans01_bitBanding_LED1.png)
 
 
-### A2. function call with 5 arguments demo
+### A2. function call with 5 arguments demo (main_functionCall.c)
 
 a) It passes the values of five arguments by moving their values onto four registers of R0-R3 and one memory space addressed by stackpointer respectively.
 
@@ -18,7 +18,7 @@ d) Initial values of five arguments are initially srored in R4-R8 registers, the
 
 ![functionCall with % arguments](https://github.com/khkim607/embsys310/blob/main/assignment04/Assignment04_Ans02_functionCall.png)
 
-### A3. stack (LIFO) data structure
+### A3. stack (LIFO) data structure (main_stack.c, stack.c, stack.h)
 
 a) instaead of two pointers used in queue structure, _**getPtr/putPtr**_, stack structure only needed one pointer of _**topPtr**_ which indicates the address of last value of data.
 1. #define STACK_SIZE 3
@@ -39,9 +39,10 @@ b) implemented in _**main.c**_
 
 c) attached files of _**stack.h**_ and _**stack.c**_
 
-### A4. Bonus: Little-/Big-endian problem demo
+### A4. Bonus: Little-/Big-endian problem demo (main_endian.c)
 a/b) check the status of "little" or "big" endian setting by comparing the value of "char" read from "int" variable.
  - *pInt = 0x41424344; //'ABCD' in character
  - char* pChar = (char*)&myInt; // pickup 'D' for littleEdnian or 'A' for bigEndia
+ - validaty is checked by assert function
 
 
