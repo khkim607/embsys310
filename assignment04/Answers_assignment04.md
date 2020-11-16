@@ -16,6 +16,6 @@ c) Extra code is _*LDR R5, [SP, #0x8]*_ which is retriving value of _5th_ argume
 
 d) Initial values of five arguments are initially srored in R4-R8 registers, then moved to R0-R3 and one stack memory space for function call operation. R4 and R5 registers are used for temporary space for moving valeus between registers.
 
-![bitBanding for LED1 Blinking](https://github.com/khkim607/embsys310/blob/main/assignment04/Assignment04_Ans01_bitBanding_LED1.png)
+![functionCall with % arguments](https://github.com/khkim607/embsys310/blob/main/assignment04/Assignment04_Ans02_functionCall.png)
 
 A3. 
