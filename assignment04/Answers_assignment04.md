@@ -1,4 +1,4 @@
-A1. bitBanding LED1 demo
+### A1. bitBanding LED1 demo
 - the following screen capture file shows difference between blinking LED1 w/ and w/o bitBanding technique
 a) 
 b)
@@ -6,7 +6,7 @@ b)
 ![bitBanding for LED1 Blinking](https://github.com/khkim607/embsys310/blob/main/assignment04/Assignment04_Ans01_bitBanding_LED1.png)
 
 
-A2. function call with 5 arguments demo
+### A2. function call with 5 arguments demo
 
 a) It passes the values of five arguments by moving their values onto four registers of R0-R3 and one memory space addressed by stackpointer respectively.
 
@@ -18,4 +18,4 @@ d) Initial values of five arguments are initially srored in R4-R8 registers, the
 
 ![functionCall with % arguments](https://github.com/khkim607/embsys310/blob/main/assignment04/Assignment04_Ans02_functionCall.png)
 
-A3. 
+### A3. queue (LIFO) data structure
