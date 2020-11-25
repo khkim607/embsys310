@@ -10,6 +10,6 @@ b. What are the values in R0 & R1 when swap_pointer() is called?
 
 c. screen shot of swabbed pointers
 
-![Swabbed pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/Capture_of_screen_shot_of_swapped_pointer_example.png)
+![Swabbed pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/Capture_of_screen_shot_of_swapped_pointer_example.PNG)
 
 
