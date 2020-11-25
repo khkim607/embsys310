@@ -7,3 +7,9 @@ a. Explain what the “main” function does in order to setup the input argumen
 b. What are the values in R0 & R1 when swap_pointer() is called?
 
 **-->** values of R0/R1 are addresses of the pointers of variables x and y, xP and yP, i.e, the addresses or variables storing the addresses of the variables x and y
+
+c. screen shot of swabbed pointers
+
+![Swabbed pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/Capture of screen shot of swapped pointer example.png)
+
+
