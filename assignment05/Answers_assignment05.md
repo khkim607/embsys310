@@ -1,4 +1,4 @@
-### A1. swapping of teo pointers
+### A1. swapping of two pointers
 
 a. Explain what the “main” function does in order to setup the input arguments prior to calling the swap_pointer() function?
    
