@@ -2,7 +2,7 @@
 
 a. Explain what the “main” function does in order to setup the input arguments prior to calling the swap_pointer() function?
    
-**-->**  store the address of the pointers of variables  x and y on the stack with new variables name xPtr and yPtr, then passes the address of xPtr and yPtr as arguments of  swap function by storing them in R0 and R1 respectively.
+**-->**  store the address of the pointers of variables  x and y on the stack with new variables name xPtr and yPtr, then swap the values of the new variables of xPtr and yPtr by passing the address of xPtr and yPtr as arguments of swap function by storing them in R0 and R1 respectively.
    
 b. What are the values in R0 & R1 when swap_pointer() is called?
 
