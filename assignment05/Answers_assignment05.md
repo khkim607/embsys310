@@ -1,4 +1,4 @@
-### A1. swapping of two pointers
+### A1. swapping of two pointers (main_swap pointers.c)
 
 a. Explain what the “main” function does in order to setup the input arguments prior to calling the swap_pointer() function?
    
