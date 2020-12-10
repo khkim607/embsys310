@@ -15,25 +15,25 @@ c. screen shot of swapped pointers
 ![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/Capture_of_screen_shot_of_swapped_pointer_example.PNG)
 
 
-### A2.  implementing function of division by 2 in assembly (divASM.s)
+### A2.  implementing function of division by 2 in assembly (main_Asm.c and divASM.s)
 
 a-e.  main function has codes for Q2 - Q4 commemted and separated by #if/#endif directives
 
 f. screen shot of TeraTerm is as follows
 
-![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/Capture_of_screen_shot_of_swapped_pointer_example.PNG)
+![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q2_Div2_Screenshot.PNG)
 
-### A3.  implementing function of swapping two character arguments in assembly (swapCharASM.s) 
+### A3.  implementing function of swapping two character arguments in assembly (main_Asm.c and swapCharASM.s) 
 
 a-b. implemented in main function and swapCharASM.s
 
 
-### A4.  implementing function of swapping pointers of two arguments in assembly (swapPointersASM.s) 
+### A4.  implementing function of swapping pointers of two arguments in assembly (main_Asm.c and swapPointersASM.s) 
 
 a-b. implemented in main function and swapPointersASM.s
 
 c. screen shot of TeraTerm is as follows
 
-![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/Capture_of_screen_shot_of_swapped_pointer_example.PNG)
+![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q4_swapPointerASM_Screenshot.PNG)
 
 
