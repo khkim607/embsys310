@@ -34,9 +34,11 @@ a-b. implemented in main function and swapPointersASM.s. Main function has codes
 
 c. screen shot of TeraTerm is as follows
 
-- int x = 0x33333333; //3333 in ASCII (**858,993,459** in Decimal) and  int y = 0x34343434; //4444 in ASCII (**875,836,468** in Decimal) are used for TeraTerm demo
+- TeraTerm screen shot shows the changes of xPtr and yPtr, pointers of variable x and y, respectively, before and after swapPointerAsm function. IAR watch window shows the variables x and y and their address are not changed, but the pointer values are swapped. 
+
+![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q4_swapPointersASM_TeraTerm.png)
 
 ![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q4_swapPointersASM_IAR_Watch.png)
-![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q4_swapPointersASM_TeraTerm.png)
+
 
 
