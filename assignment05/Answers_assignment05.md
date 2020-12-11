@@ -1,4 +1,4 @@
-### A1. swapping of two pointers (main_swap pointers.c)
+### A1. swapping of two pointers (main_swap pointers.c)![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/main_swap%20pointers.c)
 
 a. Explain what the “main” function does in order to setup the input arguments prior to calling the swap_pointer() function?
    
