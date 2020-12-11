@@ -1,4 +1,4 @@
-### A1. swapping of two pointers [main_swap pointers.c](https://github.com/khkim607/embsys310/blob/main/assignment05/main_swap%20pointers.c)
+### A1. swapping of two pointers ([main_swap pointers.c](https://github.com/khkim607/embsys310/blob/main/assignment05/main_swap%20pointers.c))
 
 a. Explain what the “main” function does in order to setup the input arguments prior to calling the swap_pointer() function?
    
@@ -15,7 +15,7 @@ c. screen shot of swapped pointers
 ![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/Capture_of_screen_shot_of_swapped_pointer_example.PNG)
 
 
-### A2.  implementing function of division by 2 in assembly (main_Asm.c and divASM.s)
+### A2.  implementing function of division by 2 in assembly (([main_Asm.c](https://github.com/khkim607/embsys310/blob/main/assignment05/main_Asm.c) and divASM.s)
 
 a-e.  main function has codes for Q2 - Q4 commemted and separated by #if/#endif directives
 
