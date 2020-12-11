@@ -28,7 +28,7 @@ f. screen shot of TeraTerm is as follows
 a-b. implemented in main function and swapCharASM.s. Main function has codes for Q2 - Q4 commemted and separated by #if/#endif directives.
 
 
-### A4.  implementing function of swapping pointers of two arguments in assembly (main_Asm.c and swapPointersASM.s) 
+### A4.  (Bonus) implementing function of swapping pointers of two arguments in assembly (main_Asm.c and swapPointersASM.s) 
 
 a-b. implemented in main function and swapPointersASM.s. Main function has codes for Q2 - Q4 commemted and separated by #if/#endif directives.
 
