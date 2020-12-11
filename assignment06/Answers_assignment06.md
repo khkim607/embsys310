@@ -1,6 +1,6 @@
 ### A1. blinking LED1 using CMSIS data structure
 
-a-e. all answers are implemented in _**main_blinking_LED1_CMSIS.c**_ file 
+a-e. all answers are implemented in _**[main_blinking_LED1_CMSIS.c](https://github.com/khkim607/embsys310/blob/main/assignment06/main_blinking_LED1_CMSIS.c)**_ file 
 
 
 ### A2. implement blinking LED1 in assembly code
