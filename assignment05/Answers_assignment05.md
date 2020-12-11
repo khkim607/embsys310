@@ -32,9 +32,9 @@ a-b. implemented in main function and swapCharASM.s. Main function has codes for
 
 a-b. implemented in main function and swapPointersASM.s. Main function has codes for Q2 - Q4 commemted and separated by #if/#endif directives.
 
-c. screen shot of TeraTerm is as follows
+c. screen shots of **TeraTerm** and **IAR_Watch** window are as follows
 
-- TeraTerm screen shot shows the changes of xPtr and yPtr, pointers of variable x and y, respectively, before and after swapPointerAsm function. IAR watch window shows the variables x and y and their address are not changed, but the pointer values are swapped. 
+- TeraTerm screen shot shows the changes of **xPtr** and **yPtr**, pointers of variable **x** and **y**, respectively, before and after swapPointerAsm function. IAR watch window shows the variables **x** and **y** and their address are not changed, but the pointer values are swapped. 
 
 ![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q4_swapPointersASM_TeraTerm.png)
 
