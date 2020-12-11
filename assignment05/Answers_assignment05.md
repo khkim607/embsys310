@@ -15,7 +15,7 @@ c. screen shot of swapped pointers
 ![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/Capture_of_screen_shot_of_swapped_pointer_example.PNG)
 
 
-### A2.  implementing function of division by 2 in assembly (([main_Asm.c](https://github.com/khkim607/embsys310/blob/main/assignment05/main_Asm.c) and divASM.s)
+### A2.  implementing function of division by 2 in assembly ([main_Asm.c](https://github.com/khkim607/embsys310/blob/main/assignment05/main_Asm.c) and [divASM.s](https://github.com/khkim607/embsys310/blob/main/assignment05/divASM.s))
 
 a-e.  main function has codes for Q2 - Q4 commemted and separated by #if/#endif directives
 
@@ -23,12 +23,12 @@ f. screen shot of TeraTerm is as follows
 
 ![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q2_Div2_Screenshot.PNG)
 
-### A3.  implementing function of swapping two character arguments in assembly (main_Asm.c and swapCharASM.s) 
+### A3.  implementing function of swapping two character arguments in assembly ([main_Asm.c](https://github.com/khkim607/embsys310/blob/main/assignment05/main_Asm.c) and [swapCharASM.s](https://github.com/khkim607/embsys310/blob/main/assignment05/swapCharASM.s)) 
 
 a-b. implemented in main function and swapCharASM.s. Main function has codes for Q2 - Q4 commemted and separated by #if/#endif directives.
 
 
-### A4.  (Bonus) implementing function of swapping pointers of two arguments in assembly (main_Asm.c and swapPointersASM.s) 
+### A4.  (Bonus) implementing function of swapping pointers of two arguments in assembly ([main_Asm.c](https://github.com/khkim607/embsys310/blob/main/assignment05/main_Asm.c) and [swapPointersASM.s](https://github.com/khkim607/embsys310/blob/main/assignment05/swapPointersASM.s)) 
 
 a-b. implemented in main function and swapPointersASM.s. Main function has codes for Q2 - Q4 commemted and separated by #if/#endif directives.
 
