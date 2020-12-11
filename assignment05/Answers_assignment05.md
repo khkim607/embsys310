@@ -36,6 +36,6 @@ c. screen shot of TeraTerm is as follows
 
 - int x = 0x33333333; //3333 in ASCII (**858,993,459** in Decimal) and  int y = 0x34343434; //4444 in ASCII (**875,836,468** in Decimal) are used for TeraTerm demo
 
-![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q4_swapPointerASM_Screenshot.PNG)
+![Swapped pointers](https://github.com/khkim607/embsys310/blob/main/assignment05/A05_Q4_swapPointersASM_IAR_Watch .jpg)
 
 
