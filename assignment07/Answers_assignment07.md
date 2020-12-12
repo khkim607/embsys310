@@ -8,7 +8,7 @@ b. screen shot of vector table
 
 c. **#define SYS_CLOCK_HZ 4000u**   <-- **_SysTick_** interrupt interval = **1 ms** since 4000 is the 1 thousandth of 4 MHz default system clock. At every 4000 system clock, SysTick make an interrupt which decrease delay count equivalent to 1 millisecond.
 
-d-e. implemedted in delay() function ([**delay.c**](https://github.com/khkim607/embsys310/blob/main/assignment07/delay.c))and the delay count controlled by **_SysTick_Handler()**_ in main function ([**main.c**](https://github.com/khkim607/embsys310/blob/main/assignment07/main.c))
+d-e. implemedted in delay() function ([**delay.c**](https://github.com/khkim607/embsys310/blob/main/assignment07/delay.c))([**delay.h**](https://github.com/khkim607/embsys310/blob/main/assignment07/delay.h)) and the delay count controlled by **_SysTick_Handler()**_ in main function ([**main.c**](https://github.com/khkim607/embsys310/blob/main/assignment07/main.c))
 
 ### A2. generated map file and answers ([SysTic_LED1.map](https://github.com/khkim607/embsys310/blob/main/assignment07/SysTic_LED1.map))
 
