@@ -20,7 +20,7 @@ c. main function using 0x70 size of ROM
 
 d. stack memory using 0x2000 size of SRAM
 
-### A3.  optimizing use of ROM and RAM
+### A3.  (Bonus) optimizing use of ROM and RAM
 
 - remove unused variables
 
