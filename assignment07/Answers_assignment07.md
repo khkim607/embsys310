@@ -12,6 +12,21 @@ d-e. implemedted in delay() function ([delay.c](https://github.com/khkim607/embs
 
 ### A2. generated map file and answers ([SysTic_LED1.map](https://github.com/khkim607/embsys310/blob/main/assignment07/SysTic_LED1.map))
 
-a. 
+a. 532 bytes of readonly code/data memory (ROM)
 
+b. 8,216 bytes of readwrite data memory (RAM)
+
+c. main function using 0x70 size of ROM
+
+d. stack memory using 0x2000 size of SRAM
+
+### A3.  optimizing use of ROM and RAM
+
+- remove unused variables
+
+- properly sized stack memory based on estimated usage
+
+- compact coding
+
+- use macro for repeatedly used set of instructions
   
