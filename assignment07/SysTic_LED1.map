@@ -1,0 +1,221 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.6.265/W32 for ARM                  11/Dec/2020  18:24:17
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\Exe\SysTic_LED1.out
+#    Map file     =
+#        C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\List\SysTic_LED1.map
+#    Command line =
+#        -f C:\Users\kihon\AppData\Local\Temp\EWA8EE.tmp
+#        (C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\Obj\delay.o
+#        C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\Obj\main.o
+#        C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\Obj\startup_stm32l475xx.o
+#        --no_out_extension -o
+#        C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\Exe\SysTic_LED1.out
+#        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
+#        --map
+#        C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\List\SysTic_LED1.map
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.4\arm\config\linker\ST\stm32l475xG.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x0] |
+                [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P3":  place in [from 0x2000'0000 to 0x2001'7fff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P5"
+  rw section application_specific_rw  in "P2|P5"
+  section .textrw                     in "P4"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x40
+  .intvec            ro code   0x800'0000    0x40  vector_table_M.o [3]
+                             - 0x800'0040    0x40
+
+"P1":                                       0x1d4
+  .text              ro code   0x800'0040    0xc4  main.o [1]
+  .text              ro code   0x800'0104    0x10  delay.o [1]
+  .text              ro code   0x800'0114    0x2e  startup_stm32l475xx.o [1]
+  .text              ro code   0x800'0142    0x2e  copy_init3.o [3]
+  .text              ro code   0x800'0170    0x28  data_init.o [3]
+  .iar.init_table    const     0x800'0198    0x14  - Linker created -
+  .text              ro code   0x800'01ac    0x1e  cmain.o [3]
+  .text              ro code   0x800'01ca     0x4  exit.o [2]
+  .text              ro code   0x800'01d0     0xa  cexit.o [3]
+  .text              ro code   0x800'01dc    0x14  exit.o [4]
+  .text              ro code   0x800'01f0     0xc  cstartup_M.o [3]
+  .rodata            const     0x800'01fc     0x0  copy_init3.o [3]
+  Initializer bytes  const     0x800'01fc    0x18  <for P3 s0>
+                             - 0x800'0214   0x1d4
+
+"P3", part 1 of 2:                           0x18
+  P3 s0                       0x2000'0000    0x18  <Init block>
+    .data            inited   0x2000'0000     0x8  main.o [1]
+    .data            inited   0x2000'0008     0x4  main.o [1]
+    .data            inited   0x2000'000c     0x4  main.o [1]
+    .data            inited   0x2000'0010     0x4  main.o [1]
+    .bss             inited   0x2000'0014     0x4  main.o [1]
+                            - 0x2000'0018    0x18
+
+"P3", part 2 of 2:                         0x2000
+  CSTACK                      0x2000'0018  0x2000  <Block>
+    CSTACK           uninit   0x2000'0018  0x2000  <Block tail>
+                            - 0x2000'2018  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+          0x0          0x0       0x1
+   0x800'0214   0x80f'ffff  0xf'fdec
+  0x2000'2018  0x2001'7fff  0x1'5fe8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x18:
+           0x800'01fc  0x18
+    1 destination range, total size 0x18:
+          0x2000'0000  0x18
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\Obj: [1]
+    delay.o                     16
+    main.o                     196       24       24
+    startup_stm32l475xx.o       46
+    ------------------------------------------------
+    Total:                     258       24       24
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    ------------------------------------------------
+    Total:                       4
+
+rt7M_tl.a: [3]
+    cexit.o                     10
+    cmain.o                     30
+    copy_init3.o                46
+    cstartup_M.o                12
+    data_init.o                 40
+    vector_table_M.o            64
+    ------------------------------------------------
+    Total:                     202
+
+shb_l.a: [4]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         4
+    Linker created                       20    8'192
+----------------------------------------------------
+    Grand Total:               488       44    8'216
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'0198         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'01ac         --   Gb  - Linker created -
+?main                    0x800'01ad        Code  Gb  cmain.o [3]
+BusFault_Handler         0x800'012f   0x8  Code  Gb  startup_stm32l475xx.o [1]
+CSTACK$$Base            0x2000'0018         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2018         --   Gb  - Linker created -
+DebugMon_Handler         0x800'0115   0x2  Code  Wk  startup_stm32l475xx.o [1]
+HardFault_Handler        0x800'011f   0x8  Code  Gb  startup_stm32l475xx.o [1]
+MemManage_Handler        0x800'0127   0x8  Code  Gb  startup_stm32l475xx.o [1]
+MilliSecond             0x2000'0014   0x4  Data  Gb  main.o [1]
+NMI_Handler              0x800'0117   0x8  Code  Gb  startup_stm32l475xx.o [1]
+PendSV_Handler           0x800'0115   0x2  Code  Wk  startup_stm32l475xx.o [1]
+Region$$Table$$Base      0x800'0198         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'01ac         --   Gb  - Linker created -
+SVC_Handler              0x800'0115   0x2  Code  Wk  startup_stm32l475xx.o [1]
+SysTick_Handler          0x800'00c7  0x14  Code  Gb  main.o [1]
+SysTick_Initialize       0x800'00b1  0x16  Code  Gb  main.o [1]
+Unused_Handler           0x800'0115   0x2  Code  Gb  startup_stm32l475xx.o [1]
+UsageFault_Handler       0x800'0137   0x8  Code  Gb  startup_stm32l475xx.o [1]
+__cmain                  0x800'01ad        Code  Gb  cmain.o [3]
+__exit                   0x800'01dd  0x14  Code  Gb  exit.o [4]
+__iar_copy_init3         0x800'0143  0x2e  Code  Gb  copy_init3.o [3]
+__iar_data_init3         0x800'0171  0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'01f1        Code  Gb  cstartup_M.o [3]
+__low_level_init         0x800'013f   0x4  Code  Gb  startup_stm32l475xx.o [1]
+__vector_table           0x800'0000        Data  Gb  vector_table_M.o [3]
+_call_main               0x800'01b9        Code  Gb  cmain.o [3]
+_exit                    0x800'01d1        Code  Gb  cexit.o [3]
+_main                    0x800'01c7        Code  Gb  cmain.o [3]
+antArray                0x2000'0000   0x8  Data  Gb  main.o [1]
+delay                    0x800'0105  0x10  Code  Gb  delay.o [1]
+e1                      0x2000'000c   0x4  Data  Gb  main.o [1]
+exit                     0x800'01cb   0x4  Code  Gb  exit.o [2]
+main                     0x800'0041  0x70  Code  Gb  main.o [1]
+s1                      0x2000'0008   0x4  Data  Gb  main.o [1]
+s2                      0x2000'0010   0x4  Data  Gb  main.o [1]
+
+
+[1] = C:\Users\kihon\Documents\Projects\embsys310\Module08_HWQ1_SysTick_LED1\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    488 bytes of readonly  code memory
+     44 bytes of readonly  data memory
+  8'216 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
