@@ -2,7 +2,7 @@
   
   - I did followed the instruction on assignment08. I did use the code from the Tutorial and modified with my system clock(4 MHz)
   
-  - One problem I had was an infinite loop happened when I try to reload PWM value by calling HAL_TIM_PWM_ConfigChannel(). **_Andrew Law's**_ posting on DIscussion link solved the problem. But I still don't understand what exactly happening in detail. But, I'll keep looking for the answer.
+  - One problem I had was an infinite loop happened when I try to reload PWM value by calling HAL_TIM_PWM_ConfigChannel(). **Andrew Law's** posting on DIscussion link solved the problem. But I still don't understand what exactly happening in detail. But, I'll keep looking for the answer.
 
 ## a-b. executed as instructed:![STM32CubeMX](https://github.com/khkim607/embsys310/blob/main/assignment08/PWM%20configuration_STM32CubeMX.png)
 
