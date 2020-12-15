@@ -18,11 +18,11 @@
 
 ## d. attached video: [PWM_LED_AS08_Kihong.mp4](https://github.com/khkim607/embsys310/blob/main/assignment08/PWM_LED_AS08_Kihong.mp4)
 
-- LED1 intensity changes in 2 sec cycle; increases for 1 sec and decreases for 1 sec. Intensity level changes in every 100 msec. 
+- LED1 intensity changes in 2 sec cycle; increases for 1 sec and decreases for 1 sec. Intensity level changes at every 100 msec. 
 
 - LED2 intensity does not change. It is blinking twice per second for 0.05 sec with the duty cycle of 0.1   
 
-## e. files uploaded:
+## e. files uploaded: [Src]
   
 - I tried to upload whole project files, but failed due to its large number and size(maybe I am missing some information on Github system).  So I uploaded main.c and other src files only.
 
